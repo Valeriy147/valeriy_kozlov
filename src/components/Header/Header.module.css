@@ -1,0 +1,115 @@
+.all{
+    position: fixed;
+    background: rgb(255, 255, 255);
+    width: 100%;
+    margin: 0 ;
+    top:0;
+    height: 65px;
+    z-index: 1;
+}
+.head{   
+    display: flex;
+    position: relative;
+    top: 30%;
+}
+.nav{
+    display: flex;
+    padding-left: 50px;
+}
+.nav > div{
+    margin-left: 10px;
+}
+.item{
+    padding-bottom: 20px;
+    text-decoration: none;
+    color: black;
+}
+.navOn{
+    padding-bottom: 26px;
+    color: green;
+    text-decoration: none;
+    border-bottom: 2px solid green;
+}
+.btn { 
+    padding-right: 50px;
+    position: absolute;
+    right: 2%;
+}
+.btn > div {
+    display: flex;
+}
+
+.greenBag{
+    position: absolute;
+    padding-left: 10px;
+    right: 50%;
+}
+.currency{
+    display: none;
+}
+.select{
+padding-left: 5px;
+}
+.bag{
+    padding-left: 30px;
+    display: flex
+}
+.totalCount{
+    position: absolute;
+    left:55%;
+    top: 0;
+    color: white;
+    width: 18px;
+    text-align: center;
+    background: rgb(73, 70, 70);
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.modal_content{
+    position: fixed;
+    top: 65px;
+    right: 100px;
+    background-color: white;
+    height: 150px;
+    width: 70px;
+    transition: 0.4s all;
+    opacity: 0;
+    pointer-events: none;
+
+}
+.modal_content.open{
+    pointer-events: all;
+
+    transition: scale(1);
+    opacity: 1;
+    box-shadow: 0px 4px 35px rgba(168, 172, 176, 0.19);
+}
+.currencyItem{
+    padding: 0;
+    margin: 0;
+    width: 70px;
+    line-height: 30px;
+    text-align: center;
+    vertical-align: middle;
+}
+.currencyItem:hover{
+    background: rgb(236, 226, 226);
+    cursor: pointer;
+}
+.symbol{
+    font-size: 130%;
+}
+.symbol:hover{
+    cursor: pointer;
+}
+.bagSymbol:hover{
+    cursor: pointer;
+}
+.vector{
+    vertical-align: middle;
+    padding: 3px;
+}
+.rotate{
+    transform: rotateX(180deg)
+}

@@ -1,0 +1,195 @@
+.modal{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.4);
+    position:fixed;
+    top: 65px;
+    left: 0;
+    display: flex;
+    justify-content: right;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.modal_content{
+    position: fixed;
+    top: 65px;
+    right: 40px;
+    background-color: white;
+    height: 590px;
+    width: 330px;
+    transition: 0.4s all;
+}
+.overflow{
+    overflow-y: scroll; 
+    overflow-x:hidden;
+}
+
+.modal.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.modal_content.active{
+    padding-top: 5px;
+    padding-left: 5px;
+    transition: scale(1);
+}
+
+.bagItem{
+    padding-top: 5px ;
+    display: flex;
+    width: 400px;
+    height: 230px;
+}
+.text{
+    width:150px;
+}
+
+.mainText{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    color: #1D1F22;
+    padding: 3px;
+}
+
+.img{
+    padding-left:10px;
+    max-height: 230px;
+    max-width: 100px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%) 
+}
+.imgContainer{
+    height: 230px;
+    position: relative;
+}
+
+.countContainer{
+    padding-left: 10px;
+    width: 20px;
+}
+
+.plus{
+    position: relative;
+    top:18%;
+    box-sizing: border-box;
+    border: 1px solid #1D1F22;
+    text-align: center;
+    cursor: pointer;
+}
+.count{
+    position: relative;
+    top:38%;
+}
+.minus{
+    position: relative;
+    top:58%;
+    box-sizing: border-box;
+    border: 1px solid #1D1F22;
+    text-align: center;
+    cursor: pointer;
+}
+
+.swatchItem{
+    display: flex;
+    width: 100%;
+}
+
+.textItem{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    align-items: center;
+    text-align: center;
+    width: 35px;
+    height: 20px;
+    margin: 3px;
+    border: 1px solid #1D1F22;
+    cursor: pointer;
+
+}
+.textItemBox{
+    display: flex;
+    width: 100%;
+}
+.textActive{
+    color: white;
+    background: rgb(73, 70, 70);
+}
+.pointer:hover{
+    cursor:pointer;
+}
+
+.empty{
+    text-align: center;
+    padding-top: 200px ;
+    font-size: 20px;
+}
+.btns{
+    position: relative;
+    display: flex;
+    width: 100%;
+    padding: 20px;
+}
+
+.btnView{
+    align-items: center;
+    text-align: center;
+    width: 140px;
+    height: 50px;
+    margin: 3px;
+    border: 1px solid #1D1F22;
+    background: #ffffff;
+}
+.btnView:hover{
+    background: rgb(232, 225, 225);    
+}
+.btnTextView{
+    width: 125px;
+    height: 20px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    align-items: center;
+    text-align: center;
+    color: #1D1F22;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.btnCheck{
+    align-items: center;
+    text-align: center;
+    width: 140px;
+    height: 50px;
+    margin: 3px;
+    border: 1px solid #1D1F22;
+    background: #5ECE7B;
+}
+
+.btnTextCheck{
+    width: 125px;
+    height: 20px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+

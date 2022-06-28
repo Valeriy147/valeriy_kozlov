@@ -1,0 +1,152 @@
+.wrapper{
+    margin-left: 5%;
+    display: flex;
+}
+.smallPhotos{
+max-width: 100px;
+padding-right: 20px;
+}
+
+.bigPhoto{
+    width:800px;
+    display: table-cell;
+    text-align: center;
+    padding-right: 20px;
+
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.outOfStock{
+    background: #FFFFFF;
+    opacity: 0.5;
+    }
+.outOfStockText{
+    position: absolute;
+    color: #8D8F9A;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 160%;
+}
+.options{
+    max-width: 400px;
+}
+
+.item{
+    width: 110px;
+    height: 110px;
+}
+
+.button{
+    height: 100px;
+    width:100px;
+    border: none;
+    background: white;
+    padding: 0;
+}
+
+.img{
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.button:hover{
+    box-shadow: 0px 4px 35px rgba(168, 172, 176, 0.19);
+}
+
+.big{
+    padding: 30px;
+    padding-left: 80px;
+    background: white;
+    max-height: 500px; 
+    max-width: 600px;
+    
+}
+
+.size{
+    display: flex;
+}
+
+.color{
+    display: flex;
+}
+
+.btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 32px;
+    border:0;
+    width: 292px;
+    height: 52px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background: #5ECE7B;
+}
+
+.text{
+    width: 125px;
+    height: 20px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.btn:hover{
+    background: #72dd8e;
+}
+
+.btn:active{
+    background: #4aa863;
+}
+.swatchItem{
+    display: flex;
+    width: 100%;
+}
+
+.textItem{
+    width: 125px;
+    height: 20px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    align-items: center;
+    text-align: center;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    width: 50px;
+    height: 20px;
+    margin: 3px;
+    border: 1px solid #1D1F22;
+}
+.textItemBox{
+    display: flex;
+    width: 100%;
+}
+.textItemBox:hover{
+cursor: pointer;
+}
+
+.textActive{
+    color: white;
+    background: rgb(73, 70, 70);
+}
+.pointer:hover{
+    cursor:pointer;
+}

@@ -1,0 +1,42 @@
+.Green{
+    background: green;
+    width: 30px;
+    height: 30px;
+    margin: 3px;
+    border-width: 1px;
+    }
+.Cyan{
+    background: cyan;
+    width: 30px;
+    height: 30px;
+    margin: 3px;
+    border-width: 1px;
+    }
+.Blue{
+    background: blue;
+    width: 30px;
+    height: 30px;
+    margin: 3px;
+    border-width: 1px;
+    }
+.Black{
+    background: black;
+    width: 30px;
+    height: 30px;
+    margin: 3px;
+    border-width: 1px;
+    }
+.White{
+    background: white;
+    width: 29px;
+    height: 29px;
+    margin: 3px;
+    border: solid black;
+    border-width: 1px;   
+
+
+    }
+.on{
+    border: solid black;
+    border: 3px solid #5ECE7B;
+}

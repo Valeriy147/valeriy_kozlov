@@ -1,0 +1,21 @@
+.wrapper {
+    display: inline-block;
+  }
+  
+  .wrapper {
+    width: 100%;
+  }
+  
+  .block {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .block > div {
+    flex-basis: 25%;
+    height: 400px;
+    margin: 10px;
+    background-color: white;
+  }
+  

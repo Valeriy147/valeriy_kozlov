@@ -1,0 +1,70 @@
+
+.wrapper{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 50px;
+    width: 386px;
+    height: 400px;
+    text-decoration: none;
+
+
+}
+.wrapper:hover{
+box-shadow: 0px 4px 35px rgba(168, 172, 176, 0.19);}
+.img{
+    height: 300px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.name{
+    width: 354px;
+    height: 29px; 
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;    
+    color: #1D1F22;
+}
+
+.price{
+    width: 354px;
+    height: 29px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 160%;    
+    display: flex;
+    align-items: center;
+    color: #1D1F22;
+}
+.container{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.outOfStock{
+    background: #ffffff;
+    opacity: 0.5;
+    }
+.outOfStockText{
+    position: absolute;
+    color: #8D8F9A;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 160%;
+}

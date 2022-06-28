@@ -1,0 +1,37 @@
+.arrow > div {
+    margin: 2px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.arrow > div > img:hover {
+    height: 26px;
+    width: 24px
+}
+.imgContainer{
+    height: 300px;
+    position: relative;
+    left: 90%;
+    padding-right: 60px;
+    width: 100px;
+}
+.arrow{
+    display: flex;
+    position: absolute;
+    top: 85%;
+    left: 80%;
+    opacity: 0.7;
+    text-align: center;
+}
+.img{
+    padding-left:10px;
+    max-height: 300px;
+    max-width: 200px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%) 
+}
+.disable{
+    opacity: 0.2;
+}
